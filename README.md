@@ -14,6 +14,8 @@ I've developed it with Xamarin Studio, it should build in a Windows environment 
 - Open Avidity.MarvelTest.sln (Xamarin Studio or Visual Studio)
 - Restore Packages of the solution, do not Update, just restore them.
 - Run it
+- I put a specific story as it was described in the task, but you can change it using the URL (e.g http://localhost/?storyID=21593)
+- 21594, 21595
 
 About the architecture...
 --------
