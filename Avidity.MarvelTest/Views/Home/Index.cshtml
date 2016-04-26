@@ -1,0 +1,67 @@
+﻿@model Avidity.MarvelTest.StoryViewModel
+	@{
+		ViewBag.Title = @Model.Story.Title;
+	}
+	@section Styles{
+	<style type="text/css">
+		.thumbnails div{
+			width:112px;
+		    height:150px;
+		    float: left;
+		}
+
+		.thumbnails img{
+		    width:110px;
+		}
+
+		.comics div{
+			width:212px;
+		    height:350px;
+		    float: left;
+		}
+
+		.comics img{
+		    width:210px;
+		}
+
+	</style>
+	}
+	<section>
+		<header>
+			<h1>@Model.Story.Title</h1>
+
+			@if(Model.Story.Description == ""){
+				<h3>Here would be a description of this story, if there was one.</h3>
+			}
+			else{
+				<h3>@Model.Story.Description</h3>
+			}
+		</header>
+	</section>
+
+
+	<section class="thumbnails">
+		<h3>Characters in this story...</h3>
+	   @foreach (var character in Model.Characters)
+	    {
+	        <div>
+	        	<img src="@character.Thumbnail.CompletePath">
+	        	<span>@character.Name</span>
+	        </div>
+	    }
+	</section>
+
+	<section class="comics">
+		<h3>Comics containing this story...</h3>
+		@foreach (var comics in Model.Comics)
+	    {
+	        <div>
+	        	<img src="@comics.Thumbnail.CompletePath">
+	        	<span>@comics.Title</span>
+	        </div>
+	    }
+    </section>
+
+    <section class="footer">
+    	<h4>@Model.Story.AttributionText</h4>
+    </section>

@@ -1,0 +1,99 @@
+﻿/* Font Definitions */
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/resources/fonts/mavenpro-regular.eot');
+  src: url('/resources/fonts/mavenpro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Maven Pro Regular'),
+       local('Maven-Pro-regular'),
+       url('/resources/fonts/mavenpro-regular.woff2') format('woff2'),
+       url('/resources/fonts/mavenpro-regular.woff') format('woff'),
+       url('/resources/fonts/mavenpro-regular.ttf') format('truetype'),
+       url('/resources/fonts/mavenpro-regular.svg#MavenPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/resources/fonts/mavenpro-medium.eot');
+  src: url('/resources/fonts/mavenpro-medium.eot?#iefix') format('embedded-opentype'),
+       local('Maven Pro Medium'),
+       local('Maven-Pro-500'),
+       url('/resources/fonts/mavenpro-medium.woff2') format('woff2'),
+       url('/resources/fonts/mavenpro-medium.woff') format('woff'),
+       url('/resources/fonts/mavenpro-medium.ttf') format('truetype'),
+       url('/resources/fonts/mavenpro-medium.svg#MavenPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Maven Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/resources/fonts/mavenpro-bold.eot');
+  src: url('/resources/fonts/mavenpro-bold.eot?#iefix') format('embedded-opentype'),
+       local('Maven Pro Bold'),
+       local('Maven-Pro-700'),
+       url('/resources/fonts/mavenpro-bold.woff2') format('woff2'),
+       url('/resources/fonts/mavenpro-bold.woff') format('woff'),
+       url('/resources/fonts/mavenpro-bold.ttf') format('truetype'),
+       url('/resources/fonts/mavenpro-bold.svg#MavenPro') format('svg');
+}
+
+/* Basic Styles */
+
+body {
+  font-size: 14px;
+  font-family: "Maven Pro", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: .2em 0 .5em;
+}
+
+a {
+  color: #333;
+}
+a:visited {
+  color: #666;
+}
+
+body>section {
+  max-width: 800px;
+  margin: 0 auto 1em;
+}
+
+.clearfix:after, section:after, .clearfix:before, section:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after, section:after {
+  clear: both;
+}
+
+body>section:first-child {
+  margin-top: 2em;
+}
+
+header {
+  text-align: center;
+}
+
+
