@@ -20,7 +20,7 @@ I've developed it with Xamarin Studio, it should build in a Windows environment 
 About the architecture...
 --------
 
--	Domain Driven Design (DDD) - Even not having a big deal in terms of domain rules, I used it because it makes easier to maintain the solution.
+-	Domain Driven Design (DDD) - Even not seeing a big deal in terms of domain rules, I used it because it makes easier to maintain the solution.
 -	Inversion of control (IoC) - To keep it clean, and not to mess with domain objects.
 -	Model View Controller (MVC) - It is a good pattern using .NET and I like it.
 -	System Pattern - I could've used a Repository Pattern, but I wouldn't implement a bunch of methods I found it simpler to create as Systems, also I could keep the Marvel's access complexity in an isolated point.
