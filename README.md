@@ -10,10 +10,10 @@ How to run it...
 
 I've developed it with Xamarin Studio, it should build in a Windows environment as well.
 
-  1- Clone this repository
-  2- Open Avidity.MarvelTest.sln (Xamarin Studio or Visual Studio)
-  3- Restore Packages of the solution, do not Update, just restore them.
-  4- Run it
+1- Clone this repository
+2- Open Avidity.MarvelTest.sln (Xamarin Studio or Visual Studio)
+3- Restore Packages of the solution, do not Update, just restore them.
+4- Run it
 
 Considerations
 --------
